@@ -1,8 +1,8 @@
+[Back to Home Page](.md)
+
 # Data Journalism Newsletter series
 
 This is the basis for a series of six newsletters introducing the core techniques and tools of data journalism. This may be expanded to more issues over time.
-
-### [Read the newsletter/s here](Home.md)
 
 ### Updates, To-Dos and Issues
 
