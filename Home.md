@@ -19,16 +19,17 @@ For now there are six newsletter in this series though more may be added aver ti
 Welcome to the first in a series of newsletters about getting started with data journalism from [The Outlier](https://theoutlier.co.za). You probably already know this but just to make sure:
 
 - There are six newsletters in this series.
-- One newsletter will be sent out every week for six weeks.
-- Each newsletter will cover a specific area of data journalism:
-  1 - What/why is data journalism (this email)
+- One newsletter will be sent out every week from the time you subscribe.
+- Each newsletter will cover a specific area of data journalism, roughly these areas:
+
+  1 - What/why is data journalism? (this email)
   2 - The basic tools of data journalism
   3 - How to find data for projects
   4 - Why and how you should "clean" data
   5 - The basics of analysing data and finding an angle
   6 - Getting started with data visualisation
 
-That's a lot of ground to cover over just six weeks so we won't be able to go into great detail on each of these areas but our intention is that it will be enough to help you get started with data journalism and to become familiar with the core concepts. Later on in the series we'll look at some resources that you can look at to start expanding your skills.
+That's a lot of ground to cover in over just six weeks, so we won't be able to go into great detail on each of these areas but our intention is that it will be enough to help you get started with data journalism and to become familiar with the core concepts. Later on in the series we'll look at some resources that you can look at to start expanding your skills.
 
 **:exclamation:But first, an important note**: This is an evolving course. Over time we will be updating it with new information and techniques if we think they will improve the overall course. If you have any questions or suggestions, or things that you think we didn't explain well enough, please let us know so we can improve explanations or add in things we left out. You can email us at [ddjnewsletter@theoutlier.co.za](mailto:ddjnewsletter@theoutlier.co.za). Any and all feedback is hugely welcomed. Alternatively, join our [Outlier Discord channel](https://discord.gg/Qf9AkFeXEF) and talk with us there.
 
@@ -42,9 +43,9 @@ This is not to say data journalism isn't about people, it most often is, but it 
 
 Data journalism is not really all that different from "normal" journalism. In traditional journalism a journalist will build relationships with "sources" so they are informed of when things happen or change. A data journalist may do the same by tracking data around a particular issue over time to see how things change.
 
-Data journalism is a relatively new field of work and there are some misconcpetions about what it is and what it isn't. Here are a few of those:
+Data journalism is a relatively new field of work and there are some misconceptions about what it is and what it isn't. Here are a few of those myths and misunderstandings:
 
-- Data journalism is [word for unfeeling/mechanical]. This is not necessarily true. Data very often represents people and, in many cases, their struggles. Understanding data about unemployment, gender-based violence, homelessness from example often allows us to tell a more compelling story that simply quoting relevant officials.
+- Data journalism is divorced of emotion. This is not necessarily true. Data very often represents people and, in many cases, their struggles. Understanding data about unemployment, gender-based violence, homelessness from example often allows us to tell a more compelling story that simply quoting relevant officials.
 
 - Data journalism is hard. Data journalism can be very hard. But then so is finding that perfect interview or video shot to tell most other stories. Don't be fooled, like most things, doing any form of journalism is hard if done properly, and data journalism is no exception.
 
@@ -85,6 +86,48 @@ In the next five newsletters we'll cover many of the skills you need to know abo
 ---
 
 #### Newsletter 2
+
+## Getting started :email:
+
+In our previous newsletter we looked at some of broad ideas around what data journalism is and how it could be used. In this issue we're going to look at some of the things you need to know a little about to get started, including some of the tools and jargon that will help you on your way.
+
+#### Tools :hammer:
+
+There are some tools you will need to get started with data journalism. You probably already have many of these and even if not they are readily available. This is not an exhaustive list of tools, just a recommended set to get you started.
+
+##### 1 - Spreadsheets
+
+Data journalism is all about data and data is generally viewed as numbers. So a spreadsheet is something you ought to get used to using as soon as you can. You don't have to be an expert with a spreasheet but it's a good idea to get comfortable with using one. We'll look at some of the things you ought to be able to do in s spreadsheet in the next issue of this newsletter. There are many paid-for and free spreadsheets you can use. The two we recommend are [Google Sheets](https://www.google.com/sheets/about/) and [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel). Excel is generally oaid-for software, while Google Sheets is part of [Google Drive](https://www.google.com/drive/) which you can use for free. Alternatively, another free option is the open source [Libre Office](https://www.libreoffice.org/) which includes a spreadsheet application.
+
+##### 2 - File formats
+
+When you're doing data journalism you'll be working with data in a mostly structured way. Unlike word processor documents which are mostly free form, data is usually more rigid format-wise. There are a number of formats you will become used to using doing data journalism including:
+
+##### CSV ("Comma Separated Values")
+
+These files can be opened in a spreadsheet or in a text editor and, as the name suggests, they consist of numbers or values separated by commas. For example, this is a CSV snippet:
+
+```
+Name, Surname, Email
+John, Smith, john@email.com
+Mary, Jones, mary@email.com
+Sipho, Mpho, sipho@email.com
+Rudzani, Maleka, rudzani@email.com
+```
+
+Each row of data is on its own line, and each piece of the data (name, surname, etc) is separated by a comma. Note, the top line includes the column headers so we know what each column includes.
+
+The same file could be opened in a spreadsheet and woudl look something like this:
+
+![CSV spreadsheet](assets/csv-spreadsheet.png)
+
+###### XLS or XLSX
+
+Files with an extension like _file.xls_ or _file.xlsx_ are Microsoft Excel files. In most cases they can be openened using Excel, Google Sheets, Libre Office or a few other applications.
+
+###### PDF & tools
+
+Unfortunately PDF (Portable Document Format) files are common in data journalism, even though the format is often far from ideal for storing data. But a lot of data, especially official data, is often released in PDF format. This often means you'll need a way to extract the data from the PDF. Tools like [Adobe Acrobat Pro](https://www.adobe.com/africa/acrobat/acrobat-pro.html) (free up until a point) is a useful tool.
 
 ##### Notes
 
